@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
+import heroImage from "@/assets/coding-robot-hero.jpg";
 const profileImage = "/lovable-uploads/0846f033-88cc-4e67-a7a4-70f82b44bdfd.png";
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
-  const roles = ["Software Engineer", "Full-Stack Developer", "Problem Solver"];
+  const roles = ["AI Engineer", "Full-Stack Developer", "Software Engineer", "Problem Solver", "Tech Innovator"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -17,9 +18,15 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-hero">
-      {/* Background gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-hero z-10" />
+      {/* Background overlay */}
+      <div className="absolute inset-0 bg-background/70 z-10" />
       
+      {/* Background robot image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-25"
+        style={{ backgroundImage: `url(${heroImage})` }}
+      />
+
       <div className="container mx-auto px-6 relative z-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
@@ -65,14 +72,16 @@ const Hero = () => {
 
           {/* Profile Image */}
           <div className="relative animate-fade-in-up">
-            <div className="relative rounded-2xl overflow-hidden shadow-card max-w-md mx-auto">
-              <img
-                src={profileImage}
-                alt="Peter Mesay - Software Engineer"
-                className="w-full h-auto object-cover animate-float"
-              />
+            <div className="relative rounded-2xl overflow-hidden shadow-card max-w-sm mx-auto">
+              <div className="aspect-[3/4] overflow-hidden">
+                <img
+                  src={profileImage}
+                  alt="Peter Mesay - AI Engineer & Software Developer"
+                  className="w-full h-full object-cover object-top animate-float"
+                />
+              </div>
               <div className="absolute inset-0 bg-gradient-primary opacity-10" />
-              <div className="absolute inset-0 ring-2 ring-primary/20 rounded-2xl" />
+              <div className="absolute inset-0 ring-2 ring-primary/30 rounded-2xl" />
             </div>
           </div>
         </div>
