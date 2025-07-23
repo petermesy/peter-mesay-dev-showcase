@@ -3,10 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 const About = () => {
   const aboutItems = [
     { emoji: "👋", text: "Hi, I'm Peter" },
-    { emoji: "👀", text: "I'm Software Engineer" },
-    { emoji: "🌱", text: "I'm currently working on improving my skills in full-stack development." },
-    { emoji: "💞️", text: "I'm looking to collaborate on open source projects that focus on web development" },
-    { emoji: "📫", text: "Ask me about my projects, or if you need a study buddy for coding challenges!" }
+    { emoji: "🤖", text: "I'm an AI Engineer, Full Stack Developer, and Machine Learning Expert" },
+    { emoji: "🌱", text: "I'm currently working on Projects on AI and full-stack development." },
+    { emoji: "💞️", text: "I'm looking to collaborate on open source projects in AI, machine learning, and web development" },
+    { emoji: "📫", text: "Ask me about my AI/ML projects, or if you need a study buddy for coding challenges!" }
   ];
 
   return (
