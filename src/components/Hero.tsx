@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
-import heroImage from "@/assets/coding-robot-hero.jpg";
+const profileImage = "/lovable-uploads/0846f033-88cc-4e67-a7a4-70f82b44bdfd.png";
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
@@ -17,15 +17,9 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-hero">
-      {/* Background overlay */}
-      <div className="absolute inset-0 bg-background/60 z-10" />
+      {/* Background gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-hero z-10" />
       
-      {/* Background image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      />
-
       <div className="container mx-auto px-6 relative z-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
@@ -69,15 +63,16 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Hero Image */}
+          {/* Profile Image */}
           <div className="relative animate-fade-in-up">
-            <div className="relative rounded-2xl overflow-hidden shadow-card">
+            <div className="relative rounded-2xl overflow-hidden shadow-card max-w-md mx-auto">
               <img
-                src={heroImage}
-                alt="Coding Robot Workspace"
+                src={profileImage}
+                alt="Peter Mesay - Software Engineer"
                 className="w-full h-auto object-cover animate-float"
               />
-              <div className="absolute inset-0 bg-gradient-primary opacity-20" />
+              <div className="absolute inset-0 bg-gradient-primary opacity-10" />
+              <div className="absolute inset-0 ring-2 ring-primary/20 rounded-2xl" />
             </div>
           </div>
         </div>
