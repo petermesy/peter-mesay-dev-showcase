@@ -23,7 +23,7 @@ const Hero = () => {
       
       {/* Background robot image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-25"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-35"
         style={{ backgroundImage: `url(${heroImage})` }}
       />
 
