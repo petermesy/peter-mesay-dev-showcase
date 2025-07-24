@@ -4,9 +4,12 @@ const About = () => {
   const aboutItems = [
     { emoji: "👋", text: "Hi, I'm Peter Messay" },
     { emoji: "🤖", text: "AI Engineer, Full Stack Developer & Machine Learning Expert with a passion for building intelligent, scalable solutions." },
-    { emoji: "💡", text: "Experienced in designing, developing, and deploying AI-driven applications and modern web platforms." },
-    { emoji: "�", text: "Skilled in Python, JavaScript/TypeScript, React, Node.js, and cloud technologies. Strong background in deep learning, NLP, and data science." },
-    { emoji: "🤝", text: "Open to collaboration on innovative projects, research, and open source. Let's connect and create impactful technology together!" }
+    { emoji: "🎓", text: "Software Engineering Student with hands-on experience in Python, Flask, React, and cloud technologies." },
+    { emoji: "🚀", text: "Built multiple projects including Academic Q&A systems, INSA Wheels Tracker, and AI-powered applications." },
+    { emoji: "💡", text: "Skilled in Python, JavaScript/TypeScript, React, Node.js, and cloud technologies. Strong background in NLP, and data science." },
+    { emoji: "💞️", text: "Looking to collaborate on innovative projects in AI, machine learning, and full-stack development." },
+    { emoji: "🤝", text: "Open to collaboration on innovative projects, research, and open source. Let's connect and create impactful technology together!" },
+    { emoji: "📫", text: "Let's connect and discuss exciting opportunities in software development!" }
   ];
 
   return (

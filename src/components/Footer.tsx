@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex items-center gap-4 text-muted-foreground">
             <span>Made by Peter Messay</span>
             <a
-              href="/Peter-Messay-FlowCV-Resume-20250724.pdf"
+              href="/Peter-Messay-Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-3 py-1 border border-primary rounded text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-200 text-sm"
