@@ -2,11 +2,13 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
   const aboutItems = [
-    { emoji: "👋", text: "Hi, I'm Peter" },
-    { emoji: "🤖", text: "I'm an AI Engineer, Full Stack Developer, and Machine Learning Expert" },
-    { emoji: "🌱", text: "I'm currently working on Projects on AI and full-stack development." },
-    { emoji: "💞️", text: "I'm looking to collaborate on open source projects in AI, machine learning, and web development" },
-    { emoji: "📫", text: "Ask me about my AI/ML projects, or if you need a study buddy for coding challenges!" }
+    { emoji: "👋", text: "Hi, I'm Peter Mesay" },
+    { emoji: "🤖", text: "Full Stack Developer and Machine Learning Expert with expertise in modern web technologies" },
+    { emoji: "🎓", text: "Computer Science graduate with hands-on experience in Python, Flask, React, and cloud technologies" },
+    { emoji: "🚀", text: "Built multiple projects including Academic ERP systems, social media platforms, and AI-powered applications" },
+    { emoji: "💡", text: "Passionate about creating scalable solutions and learning cutting-edge technologies" },
+    { emoji: "💞️", text: "Looking to collaborate on innovative projects in AI, machine learning, and full-stack development" },
+    { emoji: "📫", text: "Let's connect and discuss exciting opportunities in software development!" }
   ];
 
   return (
