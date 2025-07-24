@@ -2,11 +2,11 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
   const aboutItems = [
-    { emoji: "👋", text: "Hi, I'm Peter" },
-    { emoji: "🤖", text: "I'm an AI Engineer, Full Stack Developer, and Machine Learning Expert" },
-    { emoji: "🌱", text: "I'm currently working on Projects on AI and full-stack development." },
-    { emoji: "💞️", text: "I'm looking to collaborate on open source projects in AI, machine learning, and web development" },
-    { emoji: "📫", text: "Ask me about my AI/ML projects, or if you need a study buddy for coding challenges!" }
+    { emoji: "👋", text: "Hi, I'm Peter Messay" },
+    { emoji: "🤖", text: "AI Engineer, Full Stack Developer & Machine Learning Expert with a passion for building intelligent, scalable solutions." },
+    { emoji: "💡", text: "Experienced in designing, developing, and deploying AI-driven applications and modern web platforms." },
+    { emoji: "�", text: "Skilled in Python, JavaScript/TypeScript, React, Node.js, and cloud technologies. Strong background in deep learning, NLP, and data science." },
+    { emoji: "🤝", text: "Open to collaboration on innovative projects, research, and open source. Let's connect and create impactful technology together!" }
   ];
 
   return (
@@ -17,7 +17,7 @@ const About = () => {
             About <span className="bg-gradient-primary bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate developer with a love for creating innovative solutions and learning new technologies.
+            I am an accomplished AI Engineer and Full Stack Developer with a strong background in machine learning, deep learning, and web development. I thrive on solving complex problems and delivering high-quality, impactful solutions. My expertise spans building intelligent systems, modern web apps, and collaborating with diverse teams to drive innovation.
           </p>
         </div>
 

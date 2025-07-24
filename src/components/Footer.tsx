@@ -5,15 +5,20 @@ const Footer = () => {
     <footer className="bg-secondary/50 border-t border-border/50 py-8">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2 text-muted-foreground">
-            <span>Made with</span>
-         
-            <Code className="w-4 h-4 text-primary" />
-            <span>by Peter Mesay</span>
+          <div className="flex items-center gap-4 text-muted-foreground">
+            <span>Made by Peter Messay</span>
+            <a
+              href="/Peter-Messay-FlowCV-Resume-20250724.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-3 py-1 border border-primary rounded text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-200 text-sm"
+            >
+              Download Resume
+            </a>
           </div>
           
           <div className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Peter Mesay. All rights reserved.
+            © {new Date().getFullYear()} Peter Messay. All rights reserved.
           </div>
         </div>
       </div>

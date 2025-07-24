@@ -40,7 +40,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-xl font-bold text-foreground">Peter Mesay</span>
+            <span className="text-xl font-bold text-foreground">Peter Messay</span>
           </div>
 
           {/* Desktop Navigation */}

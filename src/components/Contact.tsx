@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Instagram, Linkedin, Mail, Github } from "lucide-react";
+import { Instagram, Linkedin, Mail, Github,PhoneCall } from "lucide-react";
 
 const Contact = () => {
   const socialLinks = [
@@ -14,6 +14,24 @@ const Contact = () => {
       name: "LinkedIn", 
       icon: Linkedin,
       url: "https://www.linkedin.com/in/peter-messay-84726a319/",
+      color: "hover:text-blue-400 hover:shadow-blue-400/30"
+    },
+    {
+      name: "Github", 
+      icon: Github,
+      url: "https://www.github.com/in/petermesy-84726a319/",
+      color: "hover:text-blue-400 hover:shadow-blue-400/30"
+    },
+    {
+      name: "Gmail", 
+      icon: Mail,
+      url: "https://mail.google.com/mail/petermesy7@gmail.com",
+      color: "hover:text-blue-400 hover:shadow-blue-400/30"
+    },
+    {
+      name: "Phone ", 
+      icon: PhoneCall,
+      url: "+25174268517",
       color: "hover:text-blue-400 hover:shadow-blue-400/30"
     }
   ];
