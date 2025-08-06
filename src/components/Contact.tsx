@@ -13,7 +13,7 @@ const Contact = () => {
     {
       name: "LinkedIn", 
       icon: Linkedin,
-      url: "https://www.linkedin.com/in/peter-messay-84726a319/",
+      url: "https://www.linkedin.com/in/peter-messay-54935228b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BCfJOzqjKTaeHmfwWjDqlYg%3D%3D",
       color: "hover:text-blue-400 hover:shadow-blue-400/30"
     },
     {
